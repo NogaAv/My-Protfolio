@@ -1,0 +1,18 @@
+{
+  "name": "myprotfolio",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://nogaav.github.io/My-Protfolio/",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.3",
+    "gh-pages": "^6.2.0"
+  }
+}
